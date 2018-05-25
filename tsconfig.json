@@ -17,7 +17,7 @@
       "dom"
     ],
     "paths": {
-      "TssGrid": [
+      "Tss-Grid": [
         "dist/tss-grid"
       ]
     }

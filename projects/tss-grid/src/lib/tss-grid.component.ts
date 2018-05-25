@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-TssGrid',
+  selector: 'lib-Tss-Grid',
   template: `
     <p>
       tss-grid works!
