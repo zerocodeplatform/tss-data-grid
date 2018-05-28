@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import { DatagridOptions } from '../utils/datagrid-options';
 
 @Component({
   selector: 'lib-data-view',
@@ -7,7 +8,7 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class DataViewComponent implements OnInit {
 
-  @Input() options: any;
+  @Input() options: DatagridOptions;
   rows: any[];
   constructor() { }
 

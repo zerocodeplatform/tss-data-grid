@@ -1,0 +1,22 @@
+{
+  "name": "tss-grid",
+  "version": "0.0.9",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "primeng": "^6.0.0-alpha.1"
+  },
+  "main": "bundles/tss-grid.umd.js",
+  "module": "fesm5/tss-grid.js",
+  "es2015": "fesm2015/tss-grid.js",
+  "esm5": "esm5/tss-grid.js",
+  "esm2015": "esm2015/tss-grid.js",
+  "fesm5": "fesm5/tss-grid.js",
+  "fesm2015": "fesm2015/tss-grid.js",
+  "typings": "tss-grid.d.ts",
+  "metadata": "tss-grid.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

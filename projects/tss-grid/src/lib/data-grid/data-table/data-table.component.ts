@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import { DatagridOptionsClass } from '../utils/datagrid-options';
 
 @Component({
   selector: 'lib-data-table',
@@ -8,17 +9,19 @@ import { Component, OnInit,Input } from '@angular/core';
 export class DataTableComponent implements OnInit {
 
  
-  @Input() options: any;
+  @Input() options: DatagridOptionsClass;
+
   cols: any[];
   rows = [];
   globalFilter : boolean = false;
-  constructor() { }
+  constructor() {}
   
 /**
  * 
  * 
  * @memberof DataTableComponent
  */
+
 ngOnInit() {
     this.cols = this.options.col;
     this.rows = this.options.rows;
